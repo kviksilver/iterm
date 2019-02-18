@@ -26,4 +26,6 @@ done
 
 mkdir "${ZDOTDIR:-$HOME}/source"
 git clone https://github.com/kviksilver/prefs.git "${ZDOTDIR:-$HOME}/source/prefs"
-cp "${ZDOTDIR:-$HOME}/source/prefs/com.googlecode.iterm2.plist" "${ZDOTDIR:-$HOME}/Library/Preferences" 
+cp "${ZDOTDIR:-$HOME}/source/prefs/com.googlecode.iterm2.plist" "${ZDOTDIR:-$HOME}/Library/Preferences"
+
+cp "Midnight.*" "${ZDOTDIR:-$HOME}/Library/Developer/Xcode/UserData/FontAndColorThemes/*"
